@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'OKSearch_Example' do
+  pod 'OKSearch', :path => '../'
+
+  target 'OKSearch_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
